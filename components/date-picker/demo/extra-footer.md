@@ -20,11 +20,11 @@ const { RangePicker } = DatePicker;
 
 ReactDOM.render(
   <Space direction="vertical" size={12}>
-    <DatePicker renderExtraFooter={() => 'extra footer'} />
-    <DatePicker renderExtraFooter={() => 'extra footer'} showTime />
-    <RangePicker renderExtraFooter={() => 'extra footer'} />
-    <RangePicker renderExtraFooter={() => 'extra footer'} showTime />
-    <DatePicker renderExtraFooter={() => 'extra footer'} picker="month" />
+    <DatePicker renderExtraFooter={() => '离线数据已覆盖至1月15号，16、17号为实时数据'} />
+    <DatePicker renderExtraFooter={() => '离线数据已覆盖至1月15号，16、17号为实时数据'} showTime />
+    <RangePicker renderExtraFooter={() => '离线数据已覆盖至1月15号，16、17号为实时数据'} />
+    <RangePicker renderExtraFooter={() => '离线数据已覆盖至1月15号，16、17号为实时数据'} showTime />
+    <DatePicker renderExtraFooter={() => '离线数据已覆盖至1月15号，16、17号为实时数据'} picker="month" />
   </Space>,
   mountNode,
 );
